@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HasabController;
 use App\Http\Controllers\MainDashboardController;
 use App\Http\Controllers\TermsController;
 use Illuminate\Support\Facades\Route;
@@ -15,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[MainDashboardController::class, 'index']);
+Route::get('/',[MainDashboardController::class, 'index'])->name('dashboard');
+Route::post('/post',[HasabController::class, 'store'])->name('hasab.create');
 
 Route::get('/terms', [TermsController::class, 'index']);

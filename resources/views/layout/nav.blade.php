@@ -6,6 +6,7 @@
                 <li><a href="/">Login</a></li>
                 <li><a href="/">Signup</a></li>
                 <li><a href="/">Profile</a></li>
+                <li class="lg:hidden ">|||</li>
             </ul>
 
         </ul>
