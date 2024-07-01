@@ -7,7 +7,7 @@
     <title>{{ config('app.name') }}</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-@include('common/nav')
+@include('layout/nav')
 
 <body class="bg-gray-100 ">
     @yield('content')
@@ -15,6 +15,6 @@
     <script src="https://kit.fontawesome.com/bb71c3bb06.js" crossorigin="anonymous"></script>
 </body>
 
-@include('common.footer')
+@include('layout/footer')
 
 </html>

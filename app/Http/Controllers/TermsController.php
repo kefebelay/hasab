@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProfileController extends Controller
+class TermsController extends Controller
 {
     function index(){
-        return view('users.profile');
+        return view('terms');
     }
 }

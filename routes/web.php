@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\MainDashboardController;
-use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TermsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[MainDashboardController::class, 'index']);
 
-Route::get('/profile', [ProfileController::class, 'index']);
+Route::get('/terms', [TermsController::class, 'index']);
