@@ -1,3 +1,7 @@
 *{
     margin: 0px;
 }
+.pagination > .active > a,
+.pagination > .active > span {
+    background-color:lightblue; /* Replace with your preferred color code */
+}

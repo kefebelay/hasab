@@ -18,5 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[MainDashboardController::class, 'index'])->name('dashboard');
 Route::post('/post',[HasabController::class, 'store'])->name('hasab.create');
+Route::delete('/delete/{id}',[HasabController::class, 'destroy'])->name('hasab.destroy');
+
 
 Route::get('/terms', [TermsController::class, 'index']);

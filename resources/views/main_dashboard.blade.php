@@ -39,7 +39,6 @@
             <div>
                 {{ $hasabs->links() }}
             </div>
-
         </div>
         <!-- Right Sidebar -->
         <div class="col-span-1 hidden lg:block">

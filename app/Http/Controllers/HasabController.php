@@ -18,4 +18,9 @@ class HasabController extends Controller
         Hasab::create(['content'=>$createdHasab]);
         return redirect()->route('dashboard')->with('success','Hasab created successfully');
     }
+    public function destroy($id){
+        Hasab::where('id',$id)->firstOrFail()->delete();
+        return redirect()->route('dashboard')->with('success','Hasab deleted successfully');
+
+    }
 }
