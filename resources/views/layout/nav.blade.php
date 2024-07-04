@@ -6,7 +6,7 @@
                 <li><a href="/">Login</a></li>
                 <li><a href="/">Signup</a></li>
                 <li><a href="/">Profile</a></li>
-                <li class="lg:hidden ">|||</li>
+                <li id="hamburger" class="lg:hidden h-14 w-14 hover:cursor-pointer"><i class="fa-solid fa-bars "></i></li>
             </ul>
 
         </ul>

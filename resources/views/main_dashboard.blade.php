@@ -36,6 +36,9 @@
                 @endforeach
 
             </div>
+            <div>
+                {{ $hasabs->links() }}
+            </div>
 
         </div>
         <!-- Right Sidebar -->

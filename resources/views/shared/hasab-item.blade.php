@@ -25,10 +25,8 @@
         </div>
     </div>
     <!-- replies -->
-    <div class="text-center text-gray-600 font-extrabold">
-        <h1>Replies</h1>
-    </div>
-    <div class="p-2 bg-gray-100 rounded-md">
+
+    <div class="p-2 bg-gray-200 rounded-lg mx-10">
         <div class="flex items-center gap-2">
             <div> <img class=" h-14 w-14 rounded-full" src="https://i.pravatar.cc/150?u={{ $hasab->id + 130 }}"
                     alt="profile img">

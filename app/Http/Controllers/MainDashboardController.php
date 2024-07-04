@@ -9,7 +9,7 @@ class MainDashboardController extends Controller
 {
     function index(){
         return view('main_dashboard',[
-            'hasabs'=>Hasab::orderByDesc('created_at')->get()
+            'hasabs'=>Hasab::orderByDesc('created_at')->paginate('5')
         ]);
     }
 }
